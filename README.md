@@ -1,7 +1,7 @@
 # calunder
 like python calendar, but kinda better
 
-## y?
+## why?
 python calendar was boring so I made it better
 
 you should read calendar.py and see how boring it was (yes, really... do it now)
