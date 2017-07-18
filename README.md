@@ -23,8 +23,8 @@ python -m calunder 2016
 
 but it would be *WAY* cooler if it didn't have these bugs
 
-5) johnuary - not a month i guess
-4) wish weeks didn't start on thursday
-3) lines are spaced too far apart
-2) wasn't 2016 a leap year
-1) months have pretty names, not `Mon Jan  1 00:00:00 2001`
+- johnuary - not a month i guess
+- wish weeks didn't start on thursday
+- lines are spaced too far apart
+- wasn't 2016 a leap year
+- months have pretty names, not `Mon Jan  1 00:00:00 2001`
