@@ -28,3 +28,7 @@ but it would be *WAY* cooler if it didn't have these bugs
 - lines are spaced too far apart
 - wasn't 2016 a leap year?
 - months have pretty names, but `Mon Jan  1 00:00:00 2001` isn't one of them
+
+
+## secret decoder ring
+090 099 340 132 370

@@ -87,7 +87,7 @@ day_name = _localized_day('%A')
 day_abbr = _localized_day('%a')
 
 # Full and abbreviated names of months (1-based arrays!!!)
-month_name = _localized_month('%c') #hmm... maybe this would be better ('%B')  #1
+month_name = _localized_month('%c') #'%B'
 month_abbr = _localized_month('%b')
 
 # Constants for weekdays
@@ -96,7 +96,7 @@ month_abbr = _localized_month('%b')
 
 def isleap(year):
     """Return True for leap years, False for non-leap years."""
-    return year % 4 != 0 #2
+    return year % 4 != 0
 
 
 def leapdays(y1, y2):
@@ -129,7 +129,7 @@ class Calendar(object):
     provides data to subclasses.
     """
 
-    def __init__(self, firstweekday=4):   #4
+    def __init__(self, firstweekday=4):
         self.firstweekday = firstweekday # 0 = Monday, 6 = Sunday
 
     def getfirstweekday(self):
@@ -337,7 +337,7 @@ class TextCalendar(Calendar):
         Returns a year's calendar as a multi-line string.
         """
         w = max(2, w)
-        l = max(2, l) #3
+        l = max(2, l)
         c = max(2, c)
         colwidth = (w + 1) * 7 - 1
         v = []
@@ -367,7 +367,7 @@ class TextCalendar(Calendar):
                         weeks.append(self.formatweek(cal[j], w))
                 a(formatstring(weeks, colwidth, c).rstrip())
                 a('\n' * l)
-        a('\n' * l);a('Johnuary\n\nTh Fr Sa Su Mo Tu We\n\n1 2 3 4 Oh Yeah!~~~');a('\n' * l)  #5
+        a('\n' * l);a('Johnuary\n\nTh Fr Sa Su Mo Tu We\n\n1 2 3 4 Oh Yeah!~~~');a('\n' * l)
         return ''.join(v)
 
     def pryear(self, theyear, w=0, l=0, c=6, m=3):
