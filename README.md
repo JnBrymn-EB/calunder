@@ -31,4 +31,4 @@ but it would be *WAY* cooler if it didn't have these bugs
 
 
 ## secret decoder ring
-090 099 340 132 370
+370 132 340 099 090 
